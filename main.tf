@@ -1,6 +1,6 @@
 ##Concurency test
 
-resource null_resource example101 {
+resource null_resource example1001 {
 	triggers = {
 		uuid=uuid()
 	}
