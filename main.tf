@@ -3,7 +3,7 @@ resource null_resource example261 {
 		uuid=uuid()
 	}
 	provisioner "local-exec" {
-	command = "echo ${var.important}"
+	command = "mecho ${var.important}"
 	}
 }
 
