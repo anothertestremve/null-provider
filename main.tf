@@ -3,10 +3,7 @@ resource null_resource example261 {
 		uuid=uuid()
 	}
 	provisioner "local-exec" {
-		environment={
-			TOKEN = var.important
-		}
-		command = "echo $TOKEN"
+		command = "ls -la /usr/bin && ls -la /usr/local/bin"
 		}
 	}
 
