@@ -6,3 +6,5 @@ resource null_resource example261 {
 	command = 'echo ${var.important}'
 	}
 }
+
+variable "important" {}
