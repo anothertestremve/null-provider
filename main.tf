@@ -6,7 +6,7 @@ resource null_resource example261 {
 		environment={
 			TOKEN = var.important
 		}
-		command = "mecho $TOKEN"
+		command = "echo $TOKEN"
 		}
 	}
 
