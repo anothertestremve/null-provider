@@ -8,7 +8,7 @@ resource null_resource example261 {
 	}
 
 terraform{
-cloud{
+backend "remote"{
 organization = "YordanH-Free"
 workspaces = {
 name = 0
