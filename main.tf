@@ -7,4 +7,11 @@ resource null_resource example261 {
 		}
 	}
 
-variable "important" {}
+terraform{
+cloud{
+organization = "YordanH-Free"
+workspaces = {
+name = 0
+}
+}
+}
