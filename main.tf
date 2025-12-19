@@ -7,11 +7,13 @@ resource null_resource example261 {
 		}
 	}
 
-terraform{
-backend "remote"{
-organization = "YordanH-Free"
-workspaces = {
-name = 0
-}
-}
+terraform { 
+  cloud { 
+    
+    organization = "Yordanh-Tfc4b" 
+
+    workspaces { 
+      name = "initializinghcpterraform" 
+    } 
+  } 
 }
